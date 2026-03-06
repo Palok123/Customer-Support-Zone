@@ -1,16 +1,31 @@
-# React + Vite
+1. What is JSX, and why is it used? <br>
+ ans: JSX stands for JavaScript XML. It is a syntax used mainly in React to write HTML-like code inside JavaScript. we used jsx in React to write HTML-like UI code inside JavaScript, making code easier to read, write, and manage. 
+ <br><br>
+ 2. What is the difference between State and Props?<br>
+ ans: props: Props are used to pass data from a parent component to a child component.
+i.Props are read-only (cannot be changed by the child).
+ii.They are used for communication between components.
+states:
+State is used to store data inside a component that can change over time.
+i.State is mutable (can change).
+ii.When state changes, the component re-renders.
+<br><br>
+3. What is the useState hook, and how does it work?<br>
+ans: useState is a React hook that lets a component remember and update values (state).
+Whenever the state changes, React re-renders the component to update the UI.
+<br><br>
+4. How can you share state between components in React?<br>
+ans : In React, state can be shared between components using several common methods. The most common one is lifting state up.Lifting state up means moving the state to the closest common parent component and passing it to child components using props.
+<br><br>
+5. How is event handling done in React?<br>
+ans: In React, events are written in camelCase and you pass a function as the event handler.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Example:
 
-Currently, two official plugins are available:
+function App() {
+  function handleClick() {
+    alert("Button clicked");
+  }
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  return <button onClick={handleClick}>Click Me</button>;
+}
