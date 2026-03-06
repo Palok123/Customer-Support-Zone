@@ -7,7 +7,7 @@ export default function Card({card,handleAddTask}) {
     const notify = () => toast("In progress");
 
     return(
-        <div className="p-5 shadow-md" onClick={()=>{handleAddTask(card);notify() }}>
+        <div className="p-5 shadow-md bg-white" onClick={()=>{handleAddTask(card);notify() }}>
             <div className="flex justify-between  items-center mb-2">
                 <p className="text-[18px] font-medium">{card.title}</p>
                 <button className={`${card.status==='In Progress'? 'bg-[#F8F3B9]' : 'bg-[#B9F8CF]'} px-2 py-1 font-medium rounded-full text-[16px] flex items-center justify-center gap-1`}><FontAwesomeIcon icon={faCircle} className={`text-[16px] ${card.status==='In Progress'? 'text-[#FEBB0C]' : 'text-[#02A53B]'}`}/>{card.status}</button>

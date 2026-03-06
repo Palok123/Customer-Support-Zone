@@ -34,7 +34,7 @@ return (
                 }
          </div>
          </div>
-         <div className="w-[30%] max-sm:w-[100%] mt-5 max-sm:mt-10">
+         <div className="w-[30%] max-sm:w-[100%] mt-5 max-sm:mt-10 bg-white p-5 shadow-md rounded-lg">
                 <h2 className="text-[24px] text-[#34485A] font-semibold mb-4 ">Task Status</h2>
                 <div>
                     {

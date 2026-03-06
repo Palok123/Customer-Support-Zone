@@ -20,18 +20,24 @@ function App() {
   
   return (
     <>
-        <div className="max-w-[95%]  h-[100%] mx-auto mb-8 ">
+
+    <div className="bg-[#E9E9E9]">
+       
            <Navbar></Navbar>
+        <div className="max-w-[95%]  h-[100%] mx-auto pb-8 ">
            <BannerSection currentTskCnt={currentTskCnt} completeTskCnt={completeTskCnt} ></BannerSection>
            <Suspense fallback={<div>Loading ....</div>}>
                <AllCard dataPromise={dataPromise} setCurrentTskCnt={setCurrentTskCnt} currentTskCnt={currentTskCnt} completeTskCnt={completeTskCnt} setCompleteTskCnt={setCompleteTskCnt} ></AllCard>
            </Suspense>
+
+           
+         
            
         </div>
+        </div>
         <Footer></Footer>
-
-         <ToastContainer />
-          
+     
+          <ToastContainer />
     </>
   )
 }
