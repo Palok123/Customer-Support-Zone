@@ -3,6 +3,7 @@ import BannerSection from "./Componants/BannerSection/BannerSection.jsx";
 import AllCard from "./Componants/AllCard/AllCard.jsx";
 import Footer from "./Componants/Footer/FooteerSection.jsx"
 import { Suspense, useState } from "react";
+import { ToastContainer} from 'react-toastify';
 const getDataPromise = async ()=>{
   const response = await fetch('/Data.json');
   return response.json();
@@ -28,6 +29,8 @@ function App() {
            
         </div>
         <Footer></Footer>
+
+         <ToastContainer />
           
     </>
   )

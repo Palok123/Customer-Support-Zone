@@ -1,5 +1,6 @@
 import { use, useState } from "react"
 import Card from "../Card/Card.jsx";
+import { toast } from "react-toastify";
 export default function AllCard({dataPromise,setCurrentTskCnt,completeTskCnt,setCompleteTskCnt}) {
 
     const cardsData = use(dataPromise);
@@ -43,7 +44,7 @@ return (
                      {
                         addTask.map((task)=><div key={task.id} className="p-4 shadow-md rounded-lg mb-2">
                             <h3 className="text-[18px] font-medium mb-2">{task.title}</h3>
-                            <button className="w-full bg-[#02A53B] rounded-md text-white text-center py-2" onClick={() => handleCompleteTask(task)}>Complete</button>
+                            <button className="w-full bg-[#02A53B] rounded-md text-white text-center py-2" onClick={() => {handleCompleteTask(task);toast("Task completed!")}}>Complete</button>
                         </div>)
                      }
                 
