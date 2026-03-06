@@ -45,6 +45,7 @@ export default function FooterSection(){
                   </ul>
                 </div>
              </div>
+             <p className="text-center text-white text-[14px] py-4">© 2026 CS — Ticket System. All rights reserved.</p>
            </footer>
     )
 }
