@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Login page not loading",
+    "description": "Users are unable to load the login page after the latest deployment.",
+    "customer": "Rahim Uddin",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 2,
+    "title": "Payment gateway timeout",
+    "description": "Payment process fails due to gateway timeout error.",
+    "customer": "Nusrat Jahan",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 3,
+    "title": "Profile image upload issue",
+    "description": "Customers cannot upload profile pictures larger than 2MB.",
+    "customer": "Arif Hossain",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-02-28"
+  },
+  {
+    "id": 4,
+    "title": "Dashboard data mismatch",
+    "description": "Sales data shown in dashboard does not match exported report.",
+    "customer": "Mehedi Hasan",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2026-02-27"
+  },
+  {
+    "id": 5,
+    "title": "Email notification not sending",
+    "description": "System fails to send verification emails to new users.",
+    "customer": "Tanjila Akter",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-02-26"
+  },
+  {
+    "id": 6,
+    "title": "Search functionality slow",
+    "description": "Product search takes more than 10 seconds to return results.",
+    "customer": "Sabbir Ahmed",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-02-25"
+  },
+  {
+    "id": 7,
+    "title": "Incorrect password reset link",
+    "description": "Password reset link redirects to a broken page.",
+    "customer": "Farhana Islam",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2026-02-24"
+  },
+  {
+    "id": 8,
+    "title": "Mobile responsiveness issue",
+    "description": "Homepage layout breaks on small screen devices.",
+    "customer": "Imran Chowdhury",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-02-23"
+  },
+  {
+    "id": 9,
+    "title": "Error 500 on checkout",
+    "description": "Server throws 500 error when customer tries to checkout.",
+    "customer": "Jannat Mim",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-02-22"
+  },
+  {
+    "id": 10,
+    "title": "Discount coupon not applying",
+    "description": "Valid coupon codes are not applying discount at checkout.",
+    "customer": "Rafiul Karim",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-02-21"
+  },
+  {
+    "id": 11,
+    "title": "Account suspension without reason",
+    "description": "Active customer account got suspended unexpectedly.",
+    "customer": "Shila Roy",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-02-20"
+  },
+  {
+    "id": 12,
+    "title": "Report export not working",
+    "description": "Export to PDF feature generates empty file.",
+    "customer": "Tanvir Ahmed",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-02-19"
+  },
+  {
+    "id": 13,
+    "title": "Language translation missing",
+    "description": "Some UI texts are not translated in Bangla version.",
+    "customer": "Mitu Sultana",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-02-18"
+  },
+  {
+    "id": 14,
+    "title": "Two-factor authentication failure",
+    "description": "OTP verification fails even with correct code.",
+    "customer": "Ashik Rahman",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-02-17"
+  },
+  {
+    "id": 15,
+    "title": "Database connection error",
+    "description": "Application intermittently loses connection to database.",
+    "customer": "Nabila Khan",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "2026-02-16"
+  }
+]
